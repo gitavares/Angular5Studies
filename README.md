@@ -1,3 +1,4 @@
+
 # Angular5Studies
 -> single page applications (SPA)
 
@@ -63,3 +64,9 @@ All builds make use of bundling, and using the --prod flag in ng build --prod or
 
 /* Running unit tests */
 > ng test
+
+/* installing boostrap v 3 */
+> npm install --save boostrap@3
+OBS: for installing the late version, just run:
+> npm install --save bootstrap
+/* but the sintaxe is different for this course */
