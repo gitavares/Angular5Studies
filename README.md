@@ -70,3 +70,9 @@ All builds make use of bundling, and using the --prod flag in ng build --prod or
 OBS: for installing the late version, just run:
 > npm install --save bootstrap
 /* but the sintaxe is different for this course */
+
+/* to generate a new component automatically */
+> ng generate component COMPONENT_NAME
+or
+> ng g c COMPONENT_NAME
+
