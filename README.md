@@ -55,3 +55,11 @@ https://github.com/angular/angular-cli/wiki
 > ng serve
 
 /* Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files. */ 
+
+/* Bundling
+
+All builds make use of bundling, and using the --prod flag in ng build --prod or ng serve --prod will also make use of uglifying and tree-shaking functionality. 
+*/
+
+/* Running unit tests */
+> ng test
