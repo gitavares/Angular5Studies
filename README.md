@@ -76,3 +76,9 @@ OBS: for installing the late version, just run:
 or
 > ng g c COMPONENT_NAME
 
+/* to NOT generate the tests modules when create a component */
+> ng g c COMPONENT-NAME --spec false
+
+/* to create a component in a determined folder */
+> ng g c FOLDERPATH/COMPONENT-NAME <OPTIONS>
+
