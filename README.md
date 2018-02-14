@@ -82,3 +82,5 @@ or
 /* to create a component in a determined folder */
 > ng g c FOLDERPATH/COMPONENT-NAME <OPTIONS>
 
+/* Angular debugger -> add a chrome extension called Augury 
+*/
