@@ -84,3 +84,8 @@ or
 
 /* Angular debugger -> add a chrome extension called Augury 
 */
+
+/* to generate a new directive automatically */
+> ng generate directive DIRECTIVE_NAME
+or
+> ng g d DIRECTIVE_NAME
