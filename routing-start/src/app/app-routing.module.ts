@@ -29,6 +29,7 @@ const appRoutes: Routes = [
 
 @NgModule({
     imports: [
+        // RouterModule.forRoot(appRoutes, {useHash: true}) //put a # before the url route folder. this can solve problems about path when we have different urls
         RouterModule.forRoot(appRoutes)
     ],
     exports: [RouterModule]
