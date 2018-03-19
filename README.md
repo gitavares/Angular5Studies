@@ -89,3 +89,6 @@ or
 > ng generate directive DIRECTIVE_NAME
 or
 > ng g d DIRECTIVE_NAME
+
+/* to install firebase on the application */
+> npm install --save firebase
