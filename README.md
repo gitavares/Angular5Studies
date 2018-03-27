@@ -92,3 +92,6 @@ or
 
 /* to install firebase on the application */
 > npm install --save firebase
+
+/* to build the app */
+> ng build --prod --aot
