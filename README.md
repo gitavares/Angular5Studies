@@ -95,3 +95,6 @@ or
 
 /* to build the app */
 > ng build --prod --aot
+
+/* to set a base href to the app by default. In this example, the base-href will be /my-app/ */
+> ng build --prod --base-href /my-app/
