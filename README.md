@@ -98,3 +98,5 @@ or
 
 /* to set a base href to the app by default. In this example, the base-href will be /my-app/ */
 > ng build --prod --base-href /my-app/
+ATTENTION!!!
+--> it would create a folder called 'dist'. The content of this folder is that one that should be on the app hosting.
