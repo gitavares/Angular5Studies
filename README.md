@@ -101,6 +101,13 @@ or
 ATTENTION!!!
 --> it would create a folder called 'dist'. The content of this folder is that one that should be on the app hosting.
 
+/* to build the app server, set 1 on index, because the angular-cli has the server info on index 1, right after index 0 corresponding to the app client */
+> ng build --prod --app 1
+
+/* On package.json I can configurate a run using any of the "scripts" config. Example bellow */
+> npm run build:ssr
+/* build:ssr is setting up on package.json on 01-ng-universal... project with this: "build:ssr": "ng build --prod && ng build --prod --app 1 --output-hashing=none" */
+
 /* imports redux to the application */
 > npm install --save @ngrx/store
 
@@ -114,6 +121,23 @@ ATTENTION!!!
 > npm install --save @ngrx/store-devtools
 ---> this need a Chrome extension: Redux DevTools
 
+
+
+-------------------
+
+With the release of Angular 4, the general syntax of Angular Animations didn't change. 
+
+However, the animation functions were moved into their own package and you now also need to add a special module to your imports[]  array in the AppModule.
+
+Specifically, the following adjustments are required:
+
+You probably need to install the new animations package (running the command never hurts): npm install --save @angular/animations 
+Add the BrowserAnimationsModule  to your imports[]  array in AppModule
+This Module needs to be imported from @angular/platform-browser/animations'  => import { BrowserAnimationsModule } from '@angular/platform-browser/animations'  (in the AppModule!)
+You then import trigger , state , style  etc from @angular/animations  instead of @angular/core 
+That's all!
+
+----------------------
 
 Official Github Repo with Documentation: https://github.com/ngrx/platform
 
