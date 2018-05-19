@@ -121,6 +121,19 @@ ATTENTION!!!
 > npm install --save @ngrx/store-devtools
 ---> this need a Chrome extension: Redux DevTools
 
+/* to init a project */
+> npm init
+// fill up some informations
+
+/* to work with webpack */
+> npm install --save-dev webpack-dev-server angular-router-loader angular2-template-loader awesome-typescript-loader html-loader raw-loader typescript del-cli
+> npm install --save-dev webpack-merge
+> npm install --save-dev html-webpack-plugin
+> npm install --save-dev webpack@3
+> npm install --save-dev @ngtools/webpack
+> npm install --save-dev @types/core-js @types/node
+> npm install --save-dev lite-server
+
 
 
 -------------------
